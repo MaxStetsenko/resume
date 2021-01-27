@@ -1,0 +1,17 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+input.input--reg {
+    border-bottom: 0.5px solid #fff!important;
+    box-shadow: 0 0.5px 0 0 #ffffff!important;
+}
+
+input.input--reg + label {
+    color: #ffffff!important;
+}
+
+input.input--reg:focus {
+    color: #ffffff!important;
+    border-bottom: 0.5px solid #4caf50!important;
+    box-shadow: 0 0.5px 0 0 #4caf50!important;
+}
